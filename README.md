@@ -50,6 +50,11 @@ $ time java -jar ./target/lein-skummet-sample-0.0.1-SNAPSHOT-standalone.jar foob
 
 ### Results
 
+Clojure:
+
+```
+java -jar target/lein-skummet-sample-0.0.1-SNAPSHOT-standalone.jar foo  1.34s user 0.09s system 177% cpu 0.810 total
+```
 Skummet:
 
 ```
@@ -62,7 +67,7 @@ Racket:
 racket foo.scm  0.21s user 0.05s system 97% cpu 0.264 total
 ```
 
-So, in theory for a human, a < 100ms difference is just about borderline noticeable.
+So, in theory for a human, a < 100ms difference between the Skummet build and Racket is just about borderline noticeable.
 
 
 Is Clojure good for CLI tools now?
