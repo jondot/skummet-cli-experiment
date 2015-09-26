@@ -13,7 +13,7 @@ Is it possible to get good startup time for shippable CLI tools with Clojure usi
 not use nail/trampoline like solutions?
 
 
-During a vivid session on freenode's #clojure, I've taken the vanilla Skummet sample, 
+During a vivid session on freenode's #clojure, I've taken the vanilla [Skummet sample](https://github.com/alexander-yakushev/lein-skummet), 
 and tried NOT to use it on Android, but on a plain command line scenario. 
 
 Testing some real-life-ish use case - take a webpage and scrape it with `jsoup`, print out the result.
