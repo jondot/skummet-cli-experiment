@@ -20,10 +20,6 @@
   (println "started")
   (if args
     (System/exit 0)
-      (println ($ (get! "http://google.com" :user-agent "CoCo/1.0")
-           td "a[href]"
-             (attr "abs:href"))))
-
-
-
-     )
+    (println ($ (get! "http://google.com" :user-agent "CoCo/1.0")
+         td "a[href]"
+           (attr "abs:href")))))
